@@ -1,0 +1,91 @@
+
+###
+Name: Christian Inci
+Languages: German and English
+Currently most used programming and scripting languages: C, Python, x86 assembly.
+All formerly and recently used programming and scripting languages: C, Python, x86 assembly, PHP, Javascript, Shell script/Batch, QBasic/QuickBasic, Free Pascal/Delphi, Ruby, Perl, C++, Go
+GitHub: https://github.com/chris-pcguy
+
+###
+Contests and Challenges:
+Finalist of the Austria Cyber Security Challenge 2012
+First win of the "CeBIT-Hacker of the Year 2013" challenge
+Winner of the "KPMG Hack Attack 2013" challenge as a part of the Security Forum in Hagenberg
+Finalist of the Austria Cyber Security Challenge 2014
+Member of the winning team of the European Cyber Security Challenge 2014
+Hacking-Lab.com profile: Afaik unavailable because of a website redesign
+Mystery Twister C3 profile: https://mysterytwister.org/account/profile/2127
+
+###
+Reverse Engineering projects:
+HP Probook UEFI:
+Found potentially memory related vulnerabilities in the zero-click USB recovery functionality.
+Attacked the Automatic DriveLock: Password recovery and bypassing the password with a hotplug attack.
+Hash cracking: Extracted various password hashes out of hidden NVRAM variables and figured out how to bruteforce them.
+
+Secure boot chain bypass for the Asus A86 phablet.
+Small some kind of trainer for Grand Theft Auto San Andreas.
+Philips/Mediatek Android TV rooting by using a vendor backdoor in order to modify kernel memory, disable SELinux and change the privileges of any running process.
+Reversed Punkbuster and Valve's CEG in order to find the reason why it doesn't work with Wine. Both using only a disassembler/debugger and reversing the assembly by hand instead of using a decompiler.
+FUSE module for Acronis True Image.
+
+Apple:
+Copied the functionality of the checkra.in DFU exploit into a part of ipwndfu, also with and without some parts of eclipsa, but made it also work on AMD platforms, which cannot be said about the original checkra.in exploit.
+Wrote some scripts based on ipwndfu to dump the NAND flash and to switch between the different recovery modes in any direction without a restart, which would lead to a disconnect of the JTAG interface.
+t8030 qemu: Found a potential out-of-bound array access. Still untested, as I didn't had any time to check it. <Description redacted>.
+Mobile Gestalt key: Found the value MLEHW by sheer luck with a wordlist from hashes.org. (https://blog.timac.org/2018/1126-deobfuscated-libmobilegestalt-keys-ios-12/)
+Wrote patches for the OpenOCD-fork from the creators of the Bonobo cable to avoid a few issues.
+
+###
+Pentesting projects:
+Wrote and adapted RCE exploits: BlueKeep, pcAnywhere
+Wrote a Recon-GUI, a C&C framework implemented with batch-based procedures, various custom exploits, nmap payloads and cross-connected them into each other.
+
+Found vulnerabilities in various routers, webcams and softwares (non-exhaustive):
+D-Link: e.g. password disclosures.
+Cisco/Linksys: <redacted> + <redacted> staged RCE (post-auth, default password might be enough).
+ipTIME: Firewall bypass and UPNP access from the internet. Accidentally fixed in a large rework.
+Edimax: Post-auth RCE, directly and also via a waterhole attack.
+ACDSee: DLL hijacking
+Mikrotik: Chained attacks for various devices in internal networks by using an old Mikrotik vulnerability. E.g.: Hikvision RCE, DVR password bruteforcer, accessing other internals routers and access points, portscanning of the internal network.
+XAMPP Waterhole attack: Using a XSS to log in to phpMyAdmin running on localhost, installing a PHP web shell and using it in various ways.
+BeEF: Wrote some plugins and converted them into standalone scripts because the use of BeEF were detected way too often by AV software.
+Alt-F: Password disclosure
+
+Blockchain:
+Inadvertently created a metadata-analysis project about the <redacted> network.
+Identified and pin-pointed computers/networks infected by <redacted>.
+Uncovered flows of funds which never entered the blockchain. This means GeoIP of the IPs accessing the wallets, e.g. between <redacted> and <redacted>, and <redacted>/<redacted> and <redacted>.
+
+Disclosed vulnerabilities:
+*.gov/*.mil
+In various servers: e.g. at the austrian surpreme court, an austrian ISP, a german browser game.
+An online voting script from Germany.
+Accidentally discovered the SDDM PAM issue while debugging another bug which also caused the exact same results.
+
+Undisclosed vulnerabilities:
+In various servers and networks: e.g. quite a few national and international ISPs, hosters and companies.
+I don't want to count how many, somehow the amount grew too quickly in the last ten years.
+
+
+###
+
+Misc. projects:
+Gnuradio/Radio:
+Metadata analysis for TETRA and GSM.
+Some experiments with FCD Pro, rtlsdr, bladeRF, Ubertooth, Flipper Zero.
+Wrote a python script to flash a LeoNTP without having to use a closed-source Windows or MacOS application for it.
+
+Hashcracking:
+Wrote plugins for Hashcat and JTR, CPU and OpenCL:
+Support for a niche password manager, support for salted SHA3 prefix and suffix, support for an erroneously implemented MD5 algorithm in an ASP library.
+Optimized the GSM A5/1 crackers deka and kraken.
+
+
+###
+
+
+
+
+
+
