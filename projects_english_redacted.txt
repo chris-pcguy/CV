@@ -48,7 +48,10 @@ Wrote a Recon-GUI (Built on python3, tkinter, MySQL/MariaDB via sqlalchemy 2.0),
 
 Found vulnerabilities in various routers, webcams and softwares (non-exhaustive):
 D-Link: e.g. password disclosures.
-Cisco/Linksys: Post-auth <redacted> + <redacted> staged RCE. However, the default password might be sufficient. There's even an API call to check for that.
+Cisco/Linksys:
+ Post-auth DDNS + CROND staged RCE (curl $url vs. "$url"). However, the default password might be sufficient. There's even an API call to check for that.
+ Seems to be fixed together with various unauth information disclosures via *.cgi files in newer firmwares, which aren't rolled out to all devices.
+ There's an API call for password hints, unfortunately it can be used to check if people put their actual password in there.
 ipTIME: Firewall bypass and UPNP access from the internet. Accidentally fixed in a large rework.
 Edimax: Post-auth RCE, directly and also via a waterhole attack.
 ACDSee: DLL hijacking
