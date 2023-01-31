@@ -3,7 +3,7 @@
 Name: Christian Inci
 Languages: German and English
 Currently most used programming and scripting languages: C, Python, x86 assembly.
-All formerly and recently used programming and scripting languages: C, Python, x86 assembly, PHP, Javascript, Shell script/Batch, QBasic/QuickBasic, Free Pascal/Delphi, Ruby, Perl, C++, Go
+All formerly and recently used programming and scripting languages: C, Python, Intel/ARM Assembly, PHP, Javascript, Shell script/Batch, QBasic/QuickBasic, Free Pascal/Delphi, Ruby, Perl, C++, Go
 GitHub: https://github.com/chris-pcguy
 
 ###
@@ -17,6 +17,10 @@ Hacking-Lab.com profile: Afaik unavailable because of a website redesign
 Mystery Twister C3 profile: https://mysterytwister.org/account/profile/2127
 
 ###
+
+You can ask for any undisclosed research or data you may suspect that I might have and I'll consider releasing it. However, I may plead the 5th or deny that I have it.
+
+
 Reverse Engineering projects:
 HP Probook UEFI:
 Found potentially memory related vulnerabilities in the zero-click USB recovery functionality.
@@ -38,12 +42,13 @@ Wrote patches for the OpenOCD-fork from the creators of the Bonobo cable to avoi
 
 ###
 Pentesting projects:
-Wrote and adapted RCE exploits: BlueKeep, pcAnywhere
-Wrote a Recon-GUI, a C&C framework implemented with batch-based procedures, various custom exploits, nmap payloads and cross-connected them into each other.
+Wrote various RCE exploits.
+Adapted e.g. this RCE exploits for use on various systems and versions: BlueKeep, pcAnywhere, netatalk
+Wrote a Recon-GUI (Built on python3, tkinter, MySQL/MariaDB via sqlalchemy 2.0), a C&C framework implemented with batch-based procedures (python3, CLI, sqlite3 via sqlalchemy 2.0), various custom exploits, nmap payloads and cross-connected them into each other.
 
 Found vulnerabilities in various routers, webcams and softwares (non-exhaustive):
 D-Link: e.g. password disclosures.
-Cisco/Linksys: <redacted> + <redacted> staged RCE (post-auth, default password might be enough).
+Cisco/Linksys: Post-auth <redacted> + <redacted> staged RCE. However, the default password might be sufficient. There's even an API call to check for that.
 ipTIME: Firewall bypass and UPNP access from the internet. Accidentally fixed in a large rework.
 Edimax: Post-auth RCE, directly and also via a waterhole attack.
 ACDSee: DLL hijacking
@@ -58,7 +63,7 @@ Identified and pin-pointed computers/networks infected by <redacted>.
 Uncovered flows of funds which never entered the blockchain. This means GeoIP of the IPs accessing the wallets, e.g. between <redacted> and <redacted>, and <redacted>/<redacted> and <redacted>.
 
 Disclosed vulnerabilities:
-*.gov/*.mil
+*.gov/*.mil/*.edu
 In various servers: e.g. at the austrian surpreme court, an austrian ISP, a german browser game.
 An online voting script from Germany.
 Accidentally discovered the SDDM PAM issue while debugging another bug which also caused the exact same results.
@@ -67,14 +72,17 @@ Undisclosed vulnerabilities:
 In various servers and networks: e.g. quite a few national and international ISPs, hosters and companies.
 I don't want to count how many, somehow the amount grew too quickly in the last ten years.
 
+Unfortunately, companies have set up way too many obstacles for vulnerability disclosure, so I couldn't possible report all of them in my expected lifetime.
+
 
 ###
 
 Misc. projects:
 Gnuradio/Radio:
-Metadata analysis for TETRA and GSM.
+Metadata and data analysis for TETRA, GSM, LTE/5G, Satellites.
 Some experiments with FCD Pro, rtlsdr, bladeRF, Ubertooth, Flipper Zero.
 Wrote a python script to flash a LeoNTP without having to use a closed-source Windows or MacOS application for it.
+Attacks on the WiFi- and Bluetooth-Stack for Windows Mobile/CE/Embedded, Symbian, Android, iOS. Research for Blackberry will follow "soon".
 
 Hashcracking:
 Wrote plugins for Hashcat and JTR, CPU and OpenCL:
