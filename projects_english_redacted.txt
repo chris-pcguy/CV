@@ -46,6 +46,7 @@ Pentesting projects:
 Wrote various RCE exploits.
 Adapted e.g. this RCE exploits for use on various systems and versions: BlueKeep, pcAnywhere, netatalk
 Wrote a Recon-GUI (Built on python3, tkinter, MySQL/MariaDB via sqlalchemy 2.0), a C&C framework implemented with batch-based procedures (python3, CLI, sqlite3 via sqlalchemy 2.0), various custom exploits, nmap payloads and cross-connected them into each other.
+Metasploit Framework: Added support for SCRAM-SHA256 password hashes in the ancient ruby postgres library, however with a less than a percent chance in my testing it fails even with a correct password, you've to retry it then. The library seems to be forgotten by upstream, so not published.
 
 Found vulnerabilities in various routers, webcams and softwares (non-exhaustive):
 D-Link: e.g. password disclosures.
