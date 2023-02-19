@@ -16,6 +16,7 @@ Finalist of the Austria Cyber Security Challenge 2014
 Member of the winning team of the European Cyber Security Challenge 2014
 Hacking-Lab.com profile: Afaik unavailable because of a website redesign
 Mystery Twister C3 profile: https://mysterytwister.org/account/profile/2127
+Completed Security Innovation's "canyouhack.us"-challenge.
 
 ###
 
@@ -61,6 +62,7 @@ Mikrotik: Chained attacks for various devices in internal networks by using an o
 XAMPP Waterhole attack: Using a XSS to log in to phpMyAdmin running on localhost, installing a PHP web shell and using it in various ways.
 BeEF: Wrote some plugins and converted them into standalone scripts because the use of BeEF were detected way too often by AV software.
 Alt-F: Password disclosure
+NCSA Mosaic: Stack Buffer Overflow in parsing the realm field of the WWW-Authenticate header. Unfortunately it looks like there are much more vulnerabilities hidden inside.
 
 Blockchain:
 Inadvertently created a metadata-analysis project about the <redacted> network.
