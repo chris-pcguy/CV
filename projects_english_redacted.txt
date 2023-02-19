@@ -41,6 +41,7 @@ Wrote some scripts based on ipwndfu to dump the NAND flash and to switch between
 t8030 qemu: Found a potential out-of-bound array access. Still untested, as I didn't had any time to check it. <Description redacted>.
 Mobile Gestalt key: Found the value MLEHW by sheer luck with a wordlist from hashes.org. (https://blog.timac.org/2018/1126-deobfuscated-libmobilegestalt-keys-ios-12/)
 Wrote patches for the OpenOCD-fork from the creators of the Bonobo cable to avoid a few issues.
+qemu-t8030: Not upstreamed: Added support for T8010 to the S8000 SecureROM module and added T8020 support to the T8030 module.
 
 ###
 Pentesting projects:
