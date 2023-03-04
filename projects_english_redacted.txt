@@ -64,6 +64,7 @@ XAMPP Waterhole attack: Using a XSS to log in to phpMyAdmin running on localhost
 BeEF: Wrote some plugins and converted them into standalone scripts because the use of BeEF were detected way too often by AV software.
 Alt-F: Password disclosure
 NCSA Mosaic: Stack Buffer Overflow in parsing the realm field of the WWW-Authenticate header. Unfortunately it looks like there are much more vulnerabilities hidden inside.
+ASUS-WRT: Authenticated DoS of the webserver component.
 
 Blockchain:
 Inadvertently created a metadata-analysis project about the <redacted> network.
